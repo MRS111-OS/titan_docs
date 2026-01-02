@@ -4,3 +4,5 @@ nav:
   - Getting Started: getting-started.md
   - About: about.md
 theme: readthedocs
+docs_dir: docs
+site_dir: docs
