@@ -45,7 +45,7 @@ Titan Robot supports a wide range of robotics functionalities out of the box:
 [Momentum Robotics](https://momentumrobotics.in/) is an Indian Robotics Startup.
 
 
-![Momentum Logo](images/logo.png)
+![Momentum Logo](images/logo_black.png)
 
 ## Next Steps
 

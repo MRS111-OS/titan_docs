@@ -2,7 +2,8 @@ site_name: Titan Documentation
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
+  - Hardware: hardware.md
   - About: about.md
 theme: readthedocs
 docs_dir: docs
-site_dir: docs
+site_dir: site
