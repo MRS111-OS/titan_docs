@@ -4,6 +4,7 @@ nav:
   - Getting Started: getting-started.md
   - Hardware Architecture: hardware.md
   - Software Architecture: software.md
+  - Robot Bringup: bringup.md
   - About: about.md
 theme: readthedocs
 docs_dir: docs
