@@ -1,0 +1,6 @@
+site_name: Titan Documentation
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - About: about.md
+theme: readthedocs
