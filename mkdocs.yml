@@ -6,6 +6,7 @@ nav:
   - Software Architecture: software.md
   - Robot Bringup: bringup.md
   - About: about.md
+  - Visualization: visualization.md
 theme: readthedocs
 docs_dir: docs
 site_dir: site

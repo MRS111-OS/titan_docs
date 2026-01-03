@@ -109,6 +109,10 @@
                 <li class="toctree-l1"><a class="reference internal" href="../about/">About</a>
                 </li>
               </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../visualization/">Visualization</a>
+                </li>
+              </ul>
       </div>
     </div>
     </nav>
@@ -146,6 +150,7 @@
 <p>These layers communicate through a serial interface.</p>
 <hr />
 <h2 id="high-level-ros-2-layer-raspberry-pi">High-Level ROS 2 Layer (Raspberry Pi)</h2>
+<p><img alt="ROS" src="../images/ros.png" /></p>
 <p>The main computer runs Ubuntu 22.04 with ROS 2 Humble and is responsible for:</p>
 <ul>
 <li>Robot bringup and system coordination</li>
@@ -226,7 +231,7 @@
 </table>
 <hr />
 <h2 id="low-level-firmware-layer-esp32">Low-Level Firmware Layer (ESP32)</h2>
-<p><img alt="Momentum Logo" src="../images/esp_flow.png" /></p>
+<p><img alt="ESP Flow" src="../images/esp_flow.png" /></p>
 <h3 id="firmware-overview">Firmware Overview</h3>
 <p>The ESP32 runs custom firmware developed and flashed using the <strong>Arduino IDE</strong>.<br />
 Its primary responsibility is real-time motor control and odometry estimation.</p>

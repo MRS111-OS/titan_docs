@@ -21,6 +21,8 @@ These layers communicate through a serial interface.
 
 ## High-Level ROS 2 Layer (Raspberry Pi)
 
+![ROS](images/ros.png)
+
 The main computer runs Ubuntu 22.04 with ROS 2 Humble and is responsible for:
 
 - Robot bringup and system coordination
@@ -75,7 +77,7 @@ The main computer runs Ubuntu 22.04 with ROS 2 Humble and is responsible for:
 
 ## Low-Level Firmware Layer (ESP32)
 
-![Momentum Logo](images/esp_flow.png)
+![ESP Flow](images/esp_flow.png)
 
 ### Firmware Overview
 
