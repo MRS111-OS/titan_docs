@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Robot Bringup - Titan Documentation</title>
+    <title>Robot Bringup - Pixel Documentation</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
@@ -30,7 +30,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href=".." class="icon icon-home"> Titan Documentation
+          <a href=".." class="icon icon-home"> Pixel Documentation
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
@@ -116,7 +116,7 @@
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../docker/">Titan Docker Simulation</a>
+                <li class="toctree-l1"><a class="reference internal" href="../docker/">Pixel Docker Simulation</a>
                 </li>
               </ul>
               <ul>
@@ -138,7 +138,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="..">Titan Documentation</a>
+          <a href="..">Pixel Documentation</a>
         
       </nav>
       <div class="wy-nav-content">
@@ -156,7 +156,7 @@
               
                 <h1 id="robot-bringup">Robot Bringup 🤖</h1>
 <h2 id="overview">Overview</h2>
-<p>This section explains how to build, launch, and verify the complete software stack of <strong>Titan Robot</strong>.<br />
+<p>This section explains how to build, launch, and verify the complete software stack of <strong>Pixel Robot</strong>.<br />
 Robot bringup refers to starting all essential components required for the robot to operate correctly, including sensors, motor control, state publishing, and visualization.</p>
 <hr />
 <h2 id="prerequisites">Prerequisites</h2>
@@ -186,7 +186,7 @@ echo 'source ~/titan_ws/install/setup.bash' &gt;&gt; ~/.bashrc
 <pre><code class="language-bash">mkdir -p ~/titan_ws
 cd ~/titan_ws
 </code></pre>
-<p>Clone the Titan Robot repository:</p>
+<p>Clone the Pixel Robot repository:</p>
 <pre><code class="language-bash">git clone https://github.com/MRS111-OS/titan_robot.git
 mv titan_robot/ src
 </code></pre>
@@ -207,7 +207,7 @@ colcon build --symlink-install --parallel-workers 4
 </blockquote>
 <hr />
 <h2 id="bringup-launch-description">Bringup Launch Description</h2>
-<p>Titan Robot uses a single bringup launch file that initializes all core components.</p>
+<p>Pixel Robot uses a single bringup launch file that initializes all core components.</p>
 <p>The bringup launch typically starts:</p>
 <ul>
 <li>Robot description (URDF)</li>
