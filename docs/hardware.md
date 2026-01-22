@@ -2,13 +2,13 @@
 
 ## Overview
 
-This section describes the complete hardware architecture of **Titan Robot**, including its mechanical structure, compute units, sensors, electronics, and power system.
+This section describes the complete hardware architecture of **Pixel Robot**, including its mechanical structure, compute units, sensors, electronics, and power system.
 
 ---
 
 ## Hardware Architecture
 
-Titan Robot follows a layered hardware design:
+Pixel Robot follows a layered hardware design:
 
 - **Compute Layer** – Runs high-level ROS 2 software
 - **Control Layer** – Handles real-time motor control and odometry
@@ -203,7 +203,7 @@ The camera configuration depends on the robot variant:
 
 ## Expansion & Customization
 
-Titan Robot is designed for extensibility:
+Pixel Robot is designed for extensibility:
 
 - USB ports for additional sensors
 - GPIO access for custom electronics
@@ -215,4 +215,4 @@ Titan Robot is designed for extensibility:
 This makes the platform suitable for both educational use and advanced research.
 
 
-You now have a complete overview of Titan Robot’s hardware platform 🚀
+You now have a complete overview of Pixel Robot’s hardware platform 🚀

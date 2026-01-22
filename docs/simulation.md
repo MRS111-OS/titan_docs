@@ -2,7 +2,7 @@
 
 ## Overview
 
-Simulation allows you to test Titan Robot’s software stack in a virtual environment before running it on real hardware. Titan Robot uses **Ignition Gazebo (Gazebo Fortress)** integrated with ROS 2 through **ros_gz_sim** to provide a realistic simulation of sensors, robot motion, mapping, and navigation.
+Simulation allows you to test Pixel Robot’s software stack in a virtual environment before running it on real hardware. Pixel Robot uses **Ignition Gazebo (Gazebo Fortress)** integrated with ROS 2 through **ros_gz_sim** to provide a realistic simulation of sensors, robot motion, mapping, and navigation.
 
 Simulation is strongly recommended for:
 - Testing navigation parameters
@@ -18,7 +18,7 @@ The simulation setup consists of:
 
 - Ignition Gazebo (Gazebo Fortress)
 - ros_gz_sim for ROS 2 ↔ Gazebo integration
-- Simulated Titan Robot model
+- Simulated Pixel Robot model
 - Simulated sensors (LIDAR)
 - RViz2 for visualization
 
@@ -53,7 +53,7 @@ These packages enable communication between ROS 2 and Ignition Gazebo.
 
 ### Preparing the Workspace
 
-Ensure your Titan Robot workspace is built and sourced:
+Ensure your Pixel Robot workspace is built and sourced:
 ```bash
 cd ~/titan_ws  
 colcon build  
@@ -74,7 +74,7 @@ export GZ_SIM_RENDER_ENGINE=ogre
 
 ## Launching the Simulation
 
-Start the simulation using the Titan Robot simulation bringup:
+Start the simulation using the Pixel Robot simulation bringup:
 ```bash
 ros2 launch titan_nav bringup.launch.py
 ```
@@ -84,7 +84,7 @@ This launch file performs the following actions:
 
 - Starts Ignition Gazebo
 - Loads the warehouse world
-- Spawns the Titan Robot model
+- Spawns the Pixel Robot model
 - Launches simulated LIDAR
 - Bridges Gazebo sensor data to ROS 2
 - Starts RViz2 with a preconfigured view

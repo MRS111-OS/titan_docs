@@ -8,7 +8,7 @@
 </div>
 
 <p align="center">
-  <img src="images/MRS_Titan.gif" alt="Titan Robot MRS">
+  <img src="images/MRS_Titan.gif" alt="Pixel Robot MRS">
 </p>
 
 [Github Link](https://github.com/MRS111-OS/titan_robot)
@@ -18,9 +18,9 @@
 
 ![Robot Front](images/1.png)
 
-**Titan Robot** is a ROS 2–based mobile robot platform designed for learning, experimentation, and real-world robotics development. Built with cost efficiency and modularity in mind, Titan Robot enables students, researchers, and developers to explore modern robotic concepts such as autonomous navigation, mapping, localization, and robot software architecture using ROS 2.
+**Pixel Robot** is a ROS 2–based mobile robot platform designed for learning, experimentation, and real-world robotics development. Built with cost efficiency and modularity in mind, Pixel Robot enables students, researchers, and developers to explore modern robotic concepts such as autonomous navigation, mapping, localization, and robot software architecture using ROS 2.
 
-The platform combines reliable hardware with a flexible software stack, making it suitable for education, prototyping, and research applications. Titan Robot emphasizes hands-on learning by exposing users to both high-level autonomy and low-level motor control.
+The platform combines reliable hardware with a flexible software stack, making it suitable for education, prototyping, and research applications. Pixel Robot emphasizes hands-on learning by exposing users to both high-level autonomy and low-level motor control.
 
 ---
 
@@ -28,7 +28,7 @@ The platform combines reliable hardware with a flexible software stack, making i
 
 ![Robot diag](images/titan_diag.png)
 
-Titan Robot was designed with the following goals:
+Pixel Robot was designed with the following goals:
 
 - **Affordability** – Accessible hardware without compromising core robotics capabilities  
 - **Modularity** – Easy to extend with additional sensors and peripherals  
@@ -40,7 +40,7 @@ Titan Robot was designed with the following goals:
 
 ## Key Capabilities
 
-Titan Robot supports a wide range of robotics functionalities out of the box:
+Pixel Robot supports a wide range of robotics functionalities out of the box:
 
 - Differential-drive mobile base
 - Real-time motor control with encoder feedback
@@ -52,7 +52,7 @@ Titan Robot supports a wide range of robotics functionalities out of the box:
 
 ---
 
-## Key Metrics for Titan Robot
+## Key Metrics for Pixel Robot
 
 | Category | Parameter | Value |
 |--------|----------|-------|
@@ -82,7 +82,7 @@ Titan Robot supports a wide range of robotics functionalities out of the box:
 
 ## Next Steps
 
-To begin working with Titan Robot, proceed to:
+To begin working with Pixel Robot, proceed to:
 
 - **Getting Started** – System requirements and setup  
 - **Hardware Overview** – Mechanical and electronic design  

@@ -2,13 +2,13 @@
 
 ## Overview
 
-Localization and navigation allow Titan Robot to estimate its position within a known map and autonomously move to target locations.  
+Localization and navigation allow Pixel Robot to estimate its position within a known map and autonomously move to target locations.  
 This section explains how localization and navigation are performed using **ROS 2 Navigation (Nav2)**.
 
 ![nav2](images/nav2_logo.png)
 
 
-Titan Robot relies entirely on Nav2 for:
+Pixel Robot relies entirely on Nav2 for:
 - Localization using a pre-built map
 - Global and local path planning
 - Obstacle avoidance

@@ -1,8 +1,8 @@
-# Titan Simulation (Docker)
+# Pixel Simulation (Docker)
 
 ## Overview
 
-The Titan Simulation Docker provides a ready-to-use environment for running Titan Robot simulation without installing ROS 2, Gazebo, or dependencies on the host system. It is intended for quick demonstrations, behavior validation, and first-time exploration of the Titan navigation stack.
+The Pixel Simulation Docker provides a ready-to-use environment for running Pixel Robot simulation without installing ROS 2, Gazebo, or dependencies on the host system. It is intended for quick demonstrations, behavior validation, and first-time exploration of the Pixel navigation stack.
 
 ---
 
@@ -47,7 +47,7 @@ The layout is:
 
 Inside the container:
 
-- The Titan simulation bringup is launched automatically
+- The Pixel simulation bringup is launched automatically
 - Ignition Gazebo starts with the warehouse world
 - The robot is spawned in simulation
 - Nav2 is launched with simulation time enabled
