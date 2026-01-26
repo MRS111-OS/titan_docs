@@ -1,4 +1,4 @@
-# TITAN DOCUMENTATION
+# PIXEL DOCUMENTATION
 
 Static Site Generator Used: [MKDocs](https://www.mkdocs.org/)
 
